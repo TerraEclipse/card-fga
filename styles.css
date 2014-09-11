@@ -26,20 +26,26 @@ body {
   margin-bottom: 65px;
 }
 
-.senator-image{
+.city-state {
   position: absolute;
-  width: 330px;
-  height: 100%;
-  right: 0;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 55px;
 }
 
-.senator-image-wrapper {
+.user-info {
   position: absolute;
-  border: 2px solid rgb( 255, 255, 255 );
-  overflow: hidden;
-  width: 270px;
-  height: 300px;
-  margin: 30px 30px 35px 30px;
+  width: 100%;
+  height: 100px;
+}
+
+.avatar {
+  position: absolute;
+  background: url(/cards/OKufzVHKtu4ryPls/eyJmaXJzdCI6IllvdXIiLCJsYXN0IjoiTmFtZSIsImNpdHkiOiJ…RlciIsImRlZmF1bHQiOnRydWUsInJhbmRvbWl6ZSI6ZmFsc2V9/files/images/avatar.png) center no-repeat;
+  background-color: red;
+  border: 2px solid rgb(255, 255, 255);
+  width: 75px;
+  height: 75px;
 }
 
 .avatar-wrapper {
@@ -55,4 +61,20 @@ body {
   width: 100%;
   height: 100%;
   left: 0;
+}
+
+.senator-image{
+  position: absolute;
+  width: 330px;
+  height: 100%;
+  right: 0;
+}
+
+.senator-image-wrapper {
+  position: absolute;
+  border: 2px solid rgb( 255, 255, 255 );
+  overflow: hidden;
+  width: 270px;
+  height: 300px;
+  margin: 30px 30px 35px 30px;
 }
