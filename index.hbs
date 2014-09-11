@@ -10,8 +10,20 @@
       <div class="wrapper">
         <div class="content-wrapper">
           <div class="content">
-            <div class="dear"></div>
-            <div class="city-state"></div>
+            <div class="dear">Senator {{senator_name}},</div>
+            <div class="city-state">
+              {{{city}}}
+              {{#if state}}
+                {{#if city}}
+                  ,
+                {{/if}}
+              {{/if}}
+              {{#if city}}
+                {{state}}
+              {{else}}
+                {{state_full}}
+              {{/if}}
+            </div>
             <div class="user-info">
               <div class="avatar">
                 {{#if avatar}}
