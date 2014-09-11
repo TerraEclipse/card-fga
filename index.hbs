@@ -18,8 +18,20 @@
                 {{/if}}
               </div>
               <div class="signature">
-                <div class="signature-name"></div>
-                <div class="signature-city-state"></div>
+                <div class="signature-name">{{first}} {{last}}</div>
+                <div class="signature-city-state">
+                  {{{city}}}
+                  {{#if state}}
+                    {{#if city}}
+                      ,
+                    {{/if}}
+                  {{/if}}
+                  {{#if city}}
+                    {{state}}
+                  {{else}}
+                    {{state_full}}
+                  {{/if}}
+                </div>
               </div>
             </div>
           </div>
