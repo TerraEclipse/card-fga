@@ -1,7 +1,8 @@
 {
   "title": "FGA Card",
   "description": "Don't expand Medicaid",
-  "size": {
+  "typekit": true,
+  "sizes": {
     "twitter": {
       "width": 800,
       "height": 400,
