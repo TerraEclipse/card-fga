@@ -5,7 +5,30 @@
     </head>
     <body {{{bodyClasses}}}>
       <div class="wrapper">
-
+        <div class="senator-image">
+          <div class="image-wrapper">
+            <img src="{{base_url}}{{senator_name}}" alt="{{senator_name}}">
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <div class="content">
+            <div class="dear"></div>
+            <div class="city-state"></div>
+            <div class="user-info">
+              <div class="avatar">
+                {{#if avatar}}
+                  <div class="avatar-wrapper">
+                    <span class="avatar-image" style="background: url({{{avatar}}})"></span>
+                  </div>
+                {{/if}}
+              </div>
+              <div class="signature">
+                <div class="signature-name"></div>
+                <div class="signature-city-state"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       {{{scripts}}}
     </body>
