@@ -1,0 +1,6 @@
+body {
+  width: 800px;
+  height: 400px;
+  font-family: Arial, Helvetica;
+  background: url(./images/card/jpg) top left no-repeat;
+}

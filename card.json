@@ -1,0 +1,39 @@
+{
+  "title": "FGA Card",
+  "description": "Don't expand Medicaid",
+  "size": {
+    "twitter": {
+      "width": 800,
+      "height": 400,
+      "default": true
+    }
+  },
+  "styles": [
+    "./styles.css"
+  ],
+  "variables": {
+    "first": "Your",
+    "last": "Name",
+    "city": "City",
+    "state": "State",
+    "state_full": "State",
+    "avatar": "./images/avatar.png",
+  },
+  "variants": {
+    "watkins": {
+      "variables": {
+
+      }
+    },
+    "guy2": {
+      "variables": {
+
+      }
+    },
+    "guy3": {
+      "variables": {
+
+      }
+    }
+  }
+}
