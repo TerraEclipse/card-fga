@@ -5,8 +5,41 @@ body {
   background: url(./images/card/jpg) top left no-repeat;
 }
 
-.senator-image{
+.wrapper {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  text-align: center;
+}
 
+.content-wrapper {
+  position: absolute;
+  width: 440px;
+  height: 100%;
+  margin-left: 30px;
+}
+
+.dear {
+  width: 100%;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+
+.senator-image{
+  position: absolute;
+  width: 330px;
+  height: 100%;
+  right: 0;
+}
+
+.senator-image-wrapper {
+  position: absolute;
+  border: 2px solid rgb( 255, 255, 255 );
+  overflow: hidden;
+  width: 270px;
+  height: 300px;
+  margin: 30px 30px 35px 30px;
 }
 
 .avatar-wrapper {
