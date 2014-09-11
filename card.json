@@ -18,23 +18,25 @@
     "city": "",
     "state": "",
     "state_full": "Your Hometown",
-    "avatar": "",
-    "senator_name": "watkins"
+    "avatar": "./images/avatar.png"
   },
   "variants": {
     "watkins": {
       "variables": {
-
+       "senator_first": "John",
+       "senator_last": "Watkins"
       }
     },
-    "guy2": {
+    "stosch": {
       "variables": {
-
+       "senator_first": "Walter",
+       "senator_last": "Stosch"
       }
     },
-    "guy3": {
+    "hanger": {
       "variables": {
-
+       "senator_first": "Emmet",
+       "senator_last": "Hanger"
       }
     }
   }
