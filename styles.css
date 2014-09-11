@@ -18,40 +18,61 @@ body {
   height: 100%;
   margin-left: 30px;
 }
+.content {
+  position: absolute;
+  width: 100%;
+  height: 365px;
+}
 
 .dear {
   width: 100%;
   height: 55px;
   margin-top: 30px;
-  margin-bottom: 65px;
 }
 
 .city-state {
-  position: absolute;
   width: 100%;
   height: 60px;
-  margin-bottom: 55px;
+  margin-top: 65px;
 }
 
 .user-info {
   position: absolute;
-  width: 100%;
+  width: 330px;
   height: 100px;
+  margin-top: 55px;
+  margin-left: 110px;
+}
+
+.signature {
+  width: 330px;
+  height: 70px;
+  margin-left: 70px;
+}
+
+.signature-name {
+  width: 100%;
+  height: 50%;
+}
+
+.signature-city-state {
+  width: 100%;
+  height: 50%;
 }
 
 .avatar {
   position: absolute;
-  background: url(/cards/OKufzVHKtu4ryPls/eyJmaXJzdCI6IllvdXIiLCJsYXN0IjoiTmFtZSIsImNpdHkiOiJ…RlciIsImRlZmF1bHQiOnRydWUsInJhbmRvbWl6ZSI6ZmFsc2V9/files/images/avatar.png) center no-repeat;
+  background: url(./images/avatar.png) center no-repeat;
   background-color: red;
   border: 2px solid rgb(255, 255, 255);
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
 }
 
 .avatar-wrapper {
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
 }
 
 .avatar-image {
