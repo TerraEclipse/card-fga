@@ -24,19 +24,22 @@
     "watkins": {
       "variables": {
        "senator_first": "John",
-       "senator_last": "Watkins"
+       "senator_last": "Watkins",
+       "senator_image": "./images/watkins.jpg"
       }
     },
     "stosch": {
       "variables": {
        "senator_first": "Walter",
-       "senator_last": "Stosch"
+       "senator_last": "Stosch",
+       "senator_image": "./images/stosch.jpg"
       }
     },
     "hanger": {
       "variables": {
        "senator_first": "Emmet",
-       "senator_last": "Hanger"
+       "senator_last": "Hanger",
+       "senator_image": "./images/hanger.jpg"
       }
     }
   }
