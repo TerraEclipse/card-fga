@@ -25,7 +25,8 @@
       "variables": {
        "senator_first": "John",
        "senator_last": "Watkins",
-       "senator_image": "./images/watkins.jpg"
+       "senator_image": "./images/watkins.jpg",
+       "default": "true"
       }
     },
     "stosch": {
