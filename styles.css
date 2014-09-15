@@ -96,8 +96,10 @@ body {
 
 .avatar-image {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  background-size: cover;
+  background-position: center;
+  width: 70px;
+  height: 70px;
   left: 0;
 }
 
