@@ -22,7 +22,6 @@
   },
   "variants": {
     "watkins": {
-      "default": "true",
       "variables": {
        "senator_first": "John",
        "senator_last": "Watkins",
