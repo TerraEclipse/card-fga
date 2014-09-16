@@ -79,7 +79,7 @@ body {
 }
 
 .avatar {
-  position: absolute;
+  position: relative;
   float: left;
   width: 65px;
   height: 65px;
