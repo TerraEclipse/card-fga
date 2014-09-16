@@ -81,15 +81,15 @@ body {
 
 .avatar {
   position: absolute;
-  background: url(./images/avatar.png) center no-repeat;
-  background-color: rgb(191, 58, 43);
-  border: 2px solid rgb(255, 255, 255);
   width: 65px;
   height: 65px;
 }
 
 .avatar-wrapper {
   position: absolute;
+  background: url(./images/avatar.png) center no-repeat;
+  background-color: rgb(191, 58, 43);
+  border: 2px solid rgb(255, 255, 255);
   width: 65px;
   height: 65px;
 }
