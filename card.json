@@ -15,8 +15,8 @@
   "variables": {
     "first": "Your",
     "last": "Name",
-    "city": "Your",
-    "state": "Hometown",
+    "city": "Your Hometown",
+    "state": "Virginia",
     "state_full": "Your Hometown",
     "avatar": "./images/avatar.png"
   },

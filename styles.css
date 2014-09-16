@@ -50,14 +50,13 @@ body {
   width: 330px;
   height: 100px;
   margin-top: 55px;
-  margin-left: 110px;
 }
 
 .signature {
   text-align: left;
-  width: 245px;
+  width: 285px;
   height: 48px;
-  margin-left: 95px;
+  margin-left: 155px;
   margin-top: 15px;
 }
 
@@ -81,8 +80,11 @@ body {
 
 .avatar {
   position: absolute;
+  float: left;
   width: 65px;
   height: 65px;
+  margin-left: 110px;
+  margin-right: 25px;
 }
 
 .avatar-wrapper {
