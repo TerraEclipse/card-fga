@@ -12,16 +12,20 @@
           <div class="content">
             <div class="dear">Senator {{#if variants}}{{senator_last}}{{else}}SENATOR NAME{{/if}},</div>
             <div class="city-state">
-              {{{city}}}
-              {{#if state}}
-                {{#if city}}
-                  ,
-                {{/if}}
-              {{/if}}
               {{#if city}}
-                {{state}}
+                {{{city}}}
+                {{#if state}}
+                  {{#if city}}
+                    ,
+                  {{/if}}
+                {{/if}}
+                {{#if city}}
+                  {{state}}
+                {{else}}
+                  {{state_full}}
+                {{/if}}
               {{else}}
-                {{state_full}}
+                Virginia
               {{/if}}
             </div>
             <div class="user-info">
