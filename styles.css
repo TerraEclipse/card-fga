@@ -13,9 +13,9 @@ body {
 }
 
 .top {
+  position: relative;
   width: 100%;
   height: 42%;
-
 }
 
 .hey {
@@ -28,9 +28,9 @@ body {
 }
 
 .bottom {
+  position: relative;
   width: 100%;
   height: 58%;
-
 }
 
 .avatar {
@@ -69,6 +69,7 @@ body {
 }
 
 .senator-image {
+  position: relative;
   width: 100%;
   height: 70%;
 }
@@ -76,11 +77,20 @@ body {
 .senator-image-wrapper {
   position: absolute;
   -webkit-transform: rotate(3deg);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 1px;
+  width: 100%;
+  height: 100%;
 }
 
 .senator-image-wrapper img {
+  position: absolute;
   width: 150px;
   height: 150px;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
 }
 
 .senator-info {
