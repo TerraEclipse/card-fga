@@ -81,7 +81,7 @@ body {
 .signature-name {
   font-family: "lato", sans-serif;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 20.5px;
   text-transform: uppercase;
   margin-left: 10%;
 }
@@ -89,7 +89,7 @@ body {
 .signature-city-state {
   font-family: "Ropa Sans", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17.5px;
   margin-left: 10%;
   margin-top: 1%;
 }
