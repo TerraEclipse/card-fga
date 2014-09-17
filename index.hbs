@@ -9,7 +9,9 @@
     <body {{{bodyClasses}}}>
       <div class="wrapper">
         <div class="top">
-          <div class="hey">Hey, <span class="red-text">Senator {{senator_last}}...</span></div>
+          <div class="hey">
+            Hey, <span class="red-text">Senator {{#if variants}} {{senator_last}}... {{else}} SENATOR NAME... {{/if}}</span>
+          </div>
         </div>
         <div class="bottom">
           <div class="avatar">
@@ -43,7 +45,11 @@
                 {{/if}}
               </div>
             </div>
-            <div class="senator-info">Senator {{senator_first}} {{senator_last}}, VA Dist {{senator_dist}}</div>
+            <div class="senator-info">
+              {{#if variants}}
+                Senator {{senator_first}} {{senator_last}}, VA Dist {{senator_dist}}
+              {{/if}}
+            </div>
           </div>
         </div>
       </div>
