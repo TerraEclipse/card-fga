@@ -25,6 +25,7 @@
       "variables": {
        "senator_first": "John",
        "senator_last": "Watkins",
+       "senator_dist": "10",
        "senator_image": "./images/watkins.jpg"
       }
     },
@@ -32,6 +33,7 @@
       "variables": {
        "senator_first": "Walter",
        "senator_last": "Stosch",
+       "senator_dist": "12",
        "senator_image": "./images/stosch.jpg"
       }
     },
@@ -39,6 +41,7 @@
       "variables": {
        "senator_first": "Emmet",
        "senator_last": "Hanger",
+       "senator_dist": "24",
        "senator_image": "./images/hanger.jpg"
       }
     }
