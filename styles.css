@@ -29,7 +29,7 @@ body {
   text-align: center;
   margin-top: 2%;
   font-family: "lato", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 27px;
   text-transform: uppercase;
 }
@@ -54,8 +54,8 @@ body {
   border: 3px solid rgb(255, 255, 255);
   border-radius: 1px;
   -webkit-transform: rotate(-3deg);
-  width: 185px;
-  height: 185px;
+  width: 180px;
+  height: 180px;
   left: 66px;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .signature-name {
   font-family: "lato", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 20px;
   text-transform: uppercase;
   margin-left: 10%;
@@ -91,6 +91,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   margin-left: 10%;
+  margin-top: 1%;
 }
 
 .senator {
