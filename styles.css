@@ -146,6 +146,7 @@ body {
 
 .site-text {
   position: relative;
+  display: none;
   float: left;
   font-family: "lato", sans-serif;
   font-weight: 400;
