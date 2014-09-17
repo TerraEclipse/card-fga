@@ -9,7 +9,7 @@
     <body {{{bodyClasses}}}>
       <div class="wrapper">
         <div class="top">
-          <div class="hey">Hey, Senator {{senator_last}}...</div>
+          <div class="hey">Hey, <span class="red-text">Senator {{senator_last}}...</span></div>
         </div>
         <div class="bottom">
           <div class="avatar">
@@ -21,7 +21,7 @@
           </div>
           <div class="signature">
             <div class="signature-name">{{first}} {{last}}</div>
-            <div class="signature-city-state">
+            <div class="signature-city-state red-text">
               {{{city}}}
               {{#if state}}
                 {{#if city}}
