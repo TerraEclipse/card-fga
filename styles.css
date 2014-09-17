@@ -127,6 +127,10 @@ body {
 
 .senator-image-wrapper span {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .senator-info {
